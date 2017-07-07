@@ -1,0 +1,83 @@
+/*Этот раздел раздел правильно размещяает блоки content; и sidebar;*/
+
+.row:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.row { display: inline-block; }
+/* start commented backslash hack \*/
+* html .row { height: 1%; }
+.row { display: block; }
+/* close commented backslash hack */
+
+/*Раздел стильей для блоков:  content; sidebar;*/
+
+.image {
+  width: 45.2%;
+  float: left;
+}
+
+.inner-image {
+}
+
+.content {
+  width: 40.8%;
+  float: left;
+  margin-top: 28px;
+}
+
+.inner-content {
+  background: #FFCE3E;
+  padding: 20px;
+}
+
+.padding_right {
+  width: 14%;
+  float: left;
+}
+.inner-padding_right{
+}
+
+.youtube {
+  width: 100%;
+  height: 520px;
+  padding-bottom: 26px;
+
+}
+
+p {
+  font-family: 'Roboto';
+  letter-spacing: 1px;
+  font-size: 16px;
+  color: #212121;
+  padding-left: 12px;
+}
+
+.select {
+  font-family: 'Comic Sans MS';
+  font-weight: 600;
+  font-size: 17px;
+  padding-left: 12px;
+}
+
+h4 {
+
+}
+
+.select-top {
+  font-family: 'Comic Sans MS';
+  font-weight: 600;
+  font-size: 14px;
+  background: #212121;
+  color: #FFCE3E;
+  padding: 3px 12px 3px 12px;
+}
+
+.about {
+  padding-left: 0px;
+  cursor: default;
+}

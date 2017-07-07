@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #212121;
+}
+.menu_top div {
+  background: #212121;
+}
+
+/*Main*/
+.bread_crumbs {
+  padding: 0 0 0 12px;
+}
+.bread_crumbs ul,
+.bread_crumbs ol {
+  list-style: none;
+}
+.bread_crumbs > ul {
+  display: flex;
+  justify-content: left;
+}
+
+/*Sub*/
+.bread_crumbs li ul {
+  display: none;
+  min-width: 300px;
+  font-size: 8px;
+  position: absolute;
+  background: #212121;
+}
+.bread_crumbs li ul a:hover{
+  color: #212121;
+  background: white;
+  margin-right: 0px;
+  font-weight: 600;
+  transition-timing-function: ease;
+  transition-duration: 0.2s;
+}
+.bread_crumbs li:hover > ul {
+  display: block;
+}
+
+/*Links*/
+.bread_crumbs > ul li a{
+  display: block;
+  padding: 4px 6px 4px 1px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 13pt;
+  font-weight: 300;
+  transition-timing-function: ease;
+  transition-duration: 0.5s;
+  cursor: default;
+}
+.bread_crumbs > ul li h1{
+  display: block;
+  padding: 4px 6px 4px 1px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 13pt;
+  font-weight: 300;
+  transition-timing-function: ease;
+  transition-duration: 0.5s;
+  cursor: default;
+}
+.bread_crumbs > ul li a:before {
+  content: "/ "
+}
+.bread_crumbs > ul li h1:before {
+  content: "/ "
+}
+.bread_crumbs > ul li h1:after {
+  content: " +"
+}
+.bread_crumbs li a:hover {
+  transition-timing-function: ease;
+  transition-duration: 0.3s;
+  font-weight: 400;
+  margin-right: 36px;
+}
+.bread_crumbs li > ul li ul{
+  position: absolute;
+  margin-left: 300px;
+  top: 84px;
+
+}
+
+h1::selection {
+  background: transparent;
+}
+h1::-moz-selection {
+  background: transparent;
+}
