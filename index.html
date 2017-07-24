@@ -4,96 +4,56 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Drop menu</title>
-  <link rel="stylesheet" href="css/menu-style.css">
-  <link rel="stylesheet" href="css/content-style.css">
-  <link rel="stylesheet" href="css/animate.css">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <style>
+   @font-face {
+    font-family: 'DisposableDroidBB';
+    src: url(font/DisposableDroidBB.otf);
+   }
+   </style>
 </head>
-<body>
+<body class="home">
 
-<div class="menu_top">
-  <div class="bread_crumbs">
-    <ul>
-      </li>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Music</a>
-      <ul>
-        <li><a href="#">Video</a></li>
-        <li><a href="#">Books</a></li>
-        <li><a href="#">Pictures</a></li>
-        <li><a href="#">Books</a></li>
-        <li><a href="#">Programs</a></li>
-        <li><a href="#">Chat</a></li>
-      </ul>
-      </li>
-      <li><a href="#">Hip-Hop</a>
-        <ul>
-          <li><a href="#">Jazz</a></li>
-          <li><a href="#">EDM</a></li>
-          <li><a href="#">Ska</a></li>
-          <li><h1>Drum and Bass</h1>
-            <ul>
-              <li><a href="#">Deep</a></li>
-              <li><a href="#">Drumfunk</a></li>
-              <li><a href="#">Hard</a></li>
-              <li><a href="#">Liquid</a></li>
-              <li><a href="#">Neurofunk</a></li>
-              <li><a href="#">Oldschool</a></li>
-              <li><a href="#">Ragga-Jungle</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Blues</a></li>
-          <li><a href="#">Hard-Core</a></li>
-          <li><a href="#">2-Step</a></li>
-        </ul>
-      </li>
-      <li><a href="#">USA</a>
-        <ul>
-          <li><a href="#">JPN</a></li>
-          <li><a href="#">RUS</a></li>
-          <li><a href="#">USA</a></li>
-          <li><a href="#">DEU</a></li>
-        </ul>
-      <li><a href="#">MF DOOM</a>
-        <ul>
-          <li><a href="#">Ice Cube</a></li>
-          <li><a href="#">Big L</a></li>
-          <li><a href="#">NY Oil</a></li>
-          <li><a href="#">Wu-Tang Clans</a></li>
-        </ul></li>
-    </ul>
+<div class="web-border"><span></span></div>
+<div class="web-border-right"><span></span></div>
+<div class="web-border-left"><span></span></div>
+<div class="web-border-bottom"><span></span></div>
+
+<div class="jumbotron jumbotron-fluid" style="background: #14151A;">
+  <div class="container top-web">
+    <h1><a href="#" alt="home">8-bit</a></h1>
+    <p class="lead" style="color: #fafafa;">This is not a bug, it's a feature!</p>
   </div>
 </div>
 
-
-<div class="image">
-  <div class="inner-image"><img src="img/Doom_Doom.svg" alt="doom"></div>
+<div class="container section-container">
+<span class="display-4 section hometext">Articles</span>
 </div>
 
-
-<div class="row">
-  <div class="content">
-    <div class="inner-content">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/jTCI_bqMi_w" frameborder="0" allowfullscreen class="youtube animated wobble"></iframe>
-      <h4><span class="select-top">JJ DOOM - BOOKHEAD</span></h4>
-      <div class="about">
-        <p><br></p>
-        <p>Director <em><span class="select">Steve Powers</span></em></p>
-        <p>Producer <em><span class="select">Posy Dixon</em></span></p>
-        <p>Director of Photography <em><span class="select">Bud Gallimore</em></span></p>
-        <p>Editor <em><span class="select">Matthew Kuborn</em></span></p>
-        <p>Assistant <em><span class="select">Producer Theresa Adebiyi</em></span></p>
-        <p>Noisey Publisher <em><span class="select">Charlie Morgan</em></span></p>
-        <p>Production Manager <em><span class="select">Bree Horn</em></span></p>
-        <p>Production Coordinator <em><span class="select">Zoey Roberts</em></span></p>
-        <p>Supervising Producers <em><span class="select">Tom Brown</em></span> (Lex Records), <em><span class="select">Alex Hoffman</em></span> (Noisey)</p>
-        <p>Colourist <em><span class="select">Chris Rodgers</em></span> (Splice Post Production)</p>
-        <p><br></p>
+<div class="container">
+  <div class="row cards">
+      <div class="col-md-4">
+        <h1>8-bit</h1>
+        <h2><a href="index/era.html">era</a></h2>
+        <p>in the history of video game consoles</p>
       </div>
-    </div>
-    <div class="padding_right"><div class="inner-padding_right"></div></div>
+      <div class="col-md-4">
+        <h1>8-bit</h1>
+        <h2><a href="index/color.html">color</a></h2>
+        <p>in computer graphics</p>
+      </div>
+      <div class="col-md-4">
+        <h1>8-bit</h1>
+        <h2><a href="index/music.html">music</a></h2>
+        <p>synthesized electronic music in a style that imitates 8-bit era sound</p>
+      </div>
   </div>
 </div>
 
 </body>
+<script src="js/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
 </html>

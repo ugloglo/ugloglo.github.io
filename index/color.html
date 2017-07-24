@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <style>
+   @font-face {
+    font-family: 'DisposableDroidBB';
+    src: url(../font/DisposableDroidBB.otf);
+   }
+   </style>
+</head>
+<body>
+
+<div class="web-border"><span></span></div>
+<div class="web-border-right"><span></span></div>
+<div class="web-border-left"><span></span></div>
+<div class="web-border-bottom"><span></span></div>
+
+<div class="jumbotron jumbotron-fluid" style="background: #14151A;">
+  <div class="container top-web">
+    <h1><a href="../index.html" alt="home">8-bit</a> <a href="#">color</a></h1>
+    <p class="lead" style="color: #fafafa;">From Wikipedia, the free encyclopedia</p>
+  </div>
+</div>
+
+<div class="container section-container">
+<p class="display-3 section">8-bit color</p>
+</div>
+
+<div class="container wiki">
+  <p>8-bit color graphics is a method of storing image information in a computer's memory or in an image file, such that each pixel is represented by one 8-bit byte. The maximum number of colors that can be displayed at any one time is 256.</p>
+
+  <p>There are two forms of 8-bit color graphics. The most common uses a separate palette of 256 colors, where each of the 256 entries in the palette map is given red, green, and blue values. In most color maps, each color is usually chosen from a palette of 16,777,216 colors (24 bits: 8 red, 8 green, 8 blue). But in the original VGA card's 320x200 mode, 256 on-screen colors could be chosen from a palette of 262,144 colors (18 bits: 6 red, 6 green, 6 blue). Some older cards prior to the VGA (like the Professional Graphics Controller) can only choose the 256-color palette from 4,096 colors (12 bits: 4 red, 4 green, 4 blue).</p>
+
+  <p>The other form is where the 8 bits directly describe red, green, and blue values, typically with three bits for red, three bits for green and two bits for blue. This second form is often called 8-bit truecolor, as it does not use a palette at all, and is thus more similar to the 15-bit, 16-bit, and 24-bit truecolor modes.</p>
+
+  <pre>
+  Bit    7  6  5  4  3  2  1  0
+  Data   R  R  R  G  G  G  B  B
+  </pre>
+
+  <p>Most 8-bit image formats store a local image palette of 256 colors in addition to the raw image data. If such an image is to be displayed on 8-bit graphics hardware, the graphics hardware's global palette will be overwritten with the local image palette. This can result in other images on the screen having wildly distorted colors due to differences in their palettes.</p>
+
+  <p>For this reason, on 8-bit graphics hardware, programs such as web browsers must address this issue when simultaneously displaying multiple images from different sources. Each image may have its own palette, but the colors in each image will be remapped to a single palette, probably using some form of dithering.</p>
+
+  <p>Currently, most graphics hardware runs in 24-bit truecolor or 32-bit truecolor (24-bit truecolor and an 8-bit alpha channel), and this problem is largely a thing of the past. However, some remote desktop software (Virtual Network Computing, Remote Desktop Protocol) can switch to 8-bit color to conserve bandwidth.</p>
+
+</div>
+
+<div class="container section-container">
+<p class="display-2 section">See also</p>
+</div>
+
+<div class="container wiki">
+  <ul>
+    <li>Planar</li>
+    <li>Packed pixel</li>
+    <li>15/16-bit color (High color)</li>
+    <li>24-bit color (True color)</li>
+    <li>Color depth</li>
+    <li>List of palettes</li>
+  </ul>
+</div>
+
+<div class="container wiki">
+  <img class="top-img" src="../img/img-3.gif" alt="animation" style="margin-bottom: 51px;" >
+</div>
+
+</body>
+<script src="../js/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+</html>

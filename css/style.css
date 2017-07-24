@@ -1,0 +1,127 @@
+body.home {
+  background-image: url(../img/img-1.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  -moz-background-size: 100%;
+  -webkit-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 2800px;
+}
+
+.cards div {
+  border: 10px solid #14151A;
+  background:  #8BA3EF;
+  color: white;
+  padding-left: 24px;
+  padding-top: 12px;
+  z-index: 1;
+}
+
+.jumbotron div {
+  z-index: 1;
+}
+
+.jumbotron h1 {
+  padding-left: 24px;
+  color: white;
+  font-family: 'DisposableDroidBB';
+  font-size: 4rem;
+}
+
+.cards h1 {
+  color: white;
+  font-family: 'DisposableDroidBB';
+  font-size: 3rem;
+}
+.cards h2 {
+  font-size: 6rem;
+  font-family: 'DisposableDroidBB';
+}
+
+.jumbotron p {
+  padding-left: 24px;
+}
+
+.section-container p{
+  padding: 64px 0 16px 0;
+  margin-left: 16px;
+}
+
+.section {
+  font-family: 'DisposableDroidBB';
+  color:  #14151A;
+}
+
+.wiki p {
+  margin: 10px 24px 0 16px;
+}
+.wiki ul {
+  margin: 10px 24px 0 0;
+}
+
+.top-img {
+  max-width: 100%;
+  margin: auto;
+}
+
+.sub-head {
+  padding-top: 15px;
+}
+
+.hometext {
+  padding-left: 16px;
+  font-family: 'DisposableDroidBB';
+  color: white;
+}
+
+.web-border {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  border: 8px solid #14151A;
+  z-index: 1;
+}
+
+.cards div{
+  min-width: 320px;
+}
+
+div.row.cards {
+ padding-bottom: 20px;
+}
+
+.cards a {
+  color: white;
+}
+.web-border-bottom {
+  color: #14151A;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 10px;
+  background: #14151A;
+  z-index: 4;
+}
+
+.web-border-right {
+  color: #14151A;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 10px;
+  height: 100%;
+  background: #14151A;
+  z-index: 4;
+}
+
+.web-border-left {
+  color: #14151A;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 10px;
+  height: 100%;
+  background: #14151A;
+  z-index: 4;
+}
