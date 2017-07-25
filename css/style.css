@@ -9,13 +9,15 @@ body.home {
 }
 
 .cards div {
-  border: 10px solid #14151A;
-  background:  #8BA3EF;
+  margin: 10px;
+  border: 1px solid #222;
+  background:  #14151A;
   color: white;
   padding-left: 24px;
   padding-top: 12px;
   z-index: 1;
 }
+
 
 .jumbotron div {
   z-index: 1;
@@ -34,6 +36,7 @@ body.home {
   font-size: 3rem;
 }
 .cards h2 {
+  margin-top: -20px;
   font-size: 6rem;
   font-family: 'DisposableDroidBB';
 }
@@ -78,7 +81,7 @@ body.home {
   position: fixed;
   width: 100%;
   height: 100%;
-  border: 8px solid #14151A;
+  border: 8px solid #000;
   z-index: 1;
 }
 
@@ -94,34 +97,34 @@ div.row.cards {
   color: white;
 }
 .web-border-bottom {
-  color: #14151A;
+  color: #000;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   height: 10px;
-  background: #14151A;
+  background: #000;
   z-index: 4;
 }
 
 .web-border-right {
-  color: #14151A;
+  color: #000;
   position: fixed;
   right: 0;
   top: 0;
   width: 10px;
   height: 100%;
-  background: #14151A;
+  background: #000;
   z-index: 4;
 }
 
 .web-border-left {
-  color: #14151A;
+  color: #000;
   position: fixed;
   left: 0;
   top: 0;
   width: 10px;
   height: 100%;
-  background: #14151A;
+  background: #000;
   z-index: 4;
 }
